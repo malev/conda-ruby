@@ -5,7 +5,7 @@ package:
 source:
   fn: ruby-2.0.0-p598.tar.gz
   url: http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p598.tar.gz
-  sha256: bb5be55cd1f49c95bb05b6f587701376b53d310eb1bb7c76fbd445a1c75b51e8
+  sha256: 4136bf7d764cbcc1c7da2824ed2826c3550f2b62af673c79ddbf9049b12095fd
 
 test:
   commands:
