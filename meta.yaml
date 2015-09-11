@@ -1,11 +1,11 @@
 package:
   name: ruby
-  version: 2.2.0
+  version: 2.2.3
 
 source:
-  fn: ruby-2.2.0.tar.gz
-  url: http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.0.tar.gz
-  sha256: 7671e394abfb5d262fbcd3b27a71bf78737c7e9347fa21c39e58b0bb9c4840fc
+  fn: ruby-2.2.3.tar.bz2
+  url: https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.bz2
+  sha256: c745cb98b29127d7f19f1bf9e0a63c384736f4d303b83c4f4bda3c2ee3c5e41f
 
 test:
   commands:
@@ -13,7 +13,7 @@ test:
 
 requirements:
   build:
-    - openssl
+    - yaml
     - zlib
 
 about:
